@@ -1,5 +1,5 @@
-# Activity-1-finals
-----  Back up files   -----
+# Activity-1-finals-BackUp
+----  INSTALLATION   -----
 
 CREATE REACT APP - 
 npx create-react-app file name
