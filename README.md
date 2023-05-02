@@ -1,23 +1,23 @@
 # Activity-1-finals-BackUp
 ----  INSTALLATION   -----
 
-CREATE REACT APP - 
-npx create-react-app file name
+**CREATE REACT APP** - 
+*npx create-react-app file name
 
-INSTALL FIREBASE
-npm install firebase
+**INSTALL FIREBASE**
+*npm install firebase
 
-INSTALL UID - 
-npm install uid
+**INSTALL UID** - 
+*npm install uid
 
-INSTALL FIREBASE TOOLS - 
-npm install -g firebase-tools
+**INSTALL FIREBASE TOOLS** - 
+*npm install -g firebase-tools
 
-RUN BUILD - 
-npm run build
+**RUN BUILD** - 
+*npm run build
 
-DEPLOY - 
-firebase deploy
+**DEPLOY** - 
+*firebase deploy
 
 
 
