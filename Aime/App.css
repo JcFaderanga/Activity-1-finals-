@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} 
+body{
+    background-image:url("https://static.vecteezy.com/system/resources/previews/009/364/393/original/modern-mosaic-wallpaper-dark-black-and-rose-gold-background-texture-vector.jpg");
+    background-size:cover;
+}
+nav{
+    height:50px;
+    background: rgba(122,69,63);
+    width:100%;
+    display:flex;
+    color: white; 
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size:26px;
+}
+.container{
+    max-width: 1000px;
+    background: rgb(0,0,0,.2);
+    margin: 0 auto;
+    height:100vh;
+
+}
+table{
+    width:800px;
+    margin: 100px auto;
+}tr{
+    height:58px;
+    margin:0;
+    border: 1px solid black;
+    background:rgba(162,98,98);
+    box-shadow: 2px 2px 5px 1px rgb(0,0,0,.5);
+    border-radius: 10px;
+    
+}
+td{
+    text-align: center;
+    margin: 5px 0;
+}
+table button{
+    width: 70px;
+    padding:10px;
+    margin: 0 5px;
+    cursor:pointer;
+    font-weight: 400;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.create{
+    width:100%;
+    height: 250px;
+    display:flex;
+    justify-content: center;
+}
+.form-group{
+    border: 1px solid rgba(162,98,98);
+    height: 330px;
+    padding: 50px;
+    width: 600px;
+    border-radius: 5px;
+    background: rgba(162,98,98,.2);
+
+}
+.details{
+    width: 100%;
+    padding: 10px 10px 0 10px;
+}
+
+.span-2{
+    display:flex;
+}
+input{
+    width:100%;
+    height: 42px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(162,98,98);
+    background: #121212;
+    font-size:15px;
+    color:white;
+
+}
+textarea{
+    width:100%;
+    height: 100px;
+    max-width: 477px;
+    min-width: 477px;
+    max-height: 120px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(162,98,98);
+    background: #121212;
+    font-size:15px;
+    color: white;
+}
+
+.create__update, .clear{
+   padding: 10px 15px;
+   margin: 10px 10px 0 0;
+   cursor:pointer;
+   border-radius: 10px;
+   border: 1px solid black;
+   background: #121212;
+   color:white;
+}
+.clear{
+    background: #121212;
+   color:white;
+}
+#update-btn-tbl{
+    background: #121212;
+    color:white;
+}
+#delete-btn-tbl{
+    background: #121212;
+    color:white;
+}
+#submit_submit{
+    padding: 10px 20px;
+   margin: 10px 10px 0 0;
+   cursor:pointer;
+   border-radius: 15px;
+   border: 1px solid black;
+   font-weight: 400;
+   background: #121212;
+   color:white;
+}
+button:hover{
+    transition: .2s;
+   transform: translateY(-3px) scale(1.05);
+}
+tr:hover{
+    
+}
