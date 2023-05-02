@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background:linear-gradient(193deg, rgba(213,191,255,0.5) 32%, rgba(250,191,223,0.5) 86%);
+   
+}
+.overlay{
+    background: rgb(0,0,0, .1);
+    width: 100%;
+    height: 100%;
+}
+nav{
+  
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:26px;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    height:100vh;
+}
+.create-overlay{
+background: rgb(0,0,0, .4);
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+position: absolute;
+top:0;
+left: 0;
+display: none;
+}
+.create{
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    background:  rgba(255,255,255,.3);
+    backdrop-filter: blur(4px);
+    -webkit-animation: pop .2s ease;
+    display:none;
+    
+}
+.create-span-input{
+    border-bottom: 1px solid white;
+    background: rgb(255,255,255, .5);
+    height: 50px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.details{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: content;
+    align-items: center;
+    margin: 20px auto;
+}
+.create .form-group input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    color:black;
+    background: rgba(255,255,255,.5);
+    border: 1px solid white;
+    padding: 20px;
+}
+input::placeholder{
+    color: black;
+}
+input:focus{
+    border: 1px solid rgb(110, 63, 4);
+    background-color:rgb(110, 63, 4,.2);
+    outline: none;
+}
+.create__update, #submit_submit{
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    background: rgba(255,255,255,.5);
+    border: 1px solid white;
+    color: black;
+}
+#submit_cancel{
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    background: rgba(255,255,255,.5);
+    border: 1px solid white;
+    color: black;
+    margin: 0 10px;
+}
+.headerBTN{
+    height: 80px;
+    width: 100%;
+    background:  rgba(255,255,255,.7);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+    background:  rgba(255,255,255,.5);
+    backdrop-filter: blur(4px);
+  
+    -webkit-animation: pop .4s ease;
+}
+td{
+    text-align: center;
+    height: 60px;
+}
+tr{
+    background:linear-gradient(80deg, rgba(213,191,255,0.5) 32%, rgba(250,191,223,0.5) 86%);
+}
+tr:nth-child(odd){
+    background:linear-gradient(193deg, rgba(213,191,255,0.5) 32%, rgba(250,191,223,0.5) 86%);
+}
+.create_top, .create_top2{
+    padding: 10px 25px;
+    font-size:18px;
+    background:transparent;
+    border:none;
+    margin: 10px;
+    border-radius: 25px;
+    color: #28263c;;
+    cursor: pointer;
+    position: relative;
+}
+.create_top::before{
+    content:'Create';
+    position: absolute;
+    overflow:hidden;
+    width: 5px;
+    height: 30px;
+    left: 0;
+    background: black;
+    transition: .2s ease;
+}
+.create_top2::before{
+    content:'View records';
+    position: absolute;
+    overflow:hidden;
+    width: 5px;
+    height: 30px;
+    left: 0;
+    background: black;
+    transition: .2s ease;
+}
+.create_top:hover::before, .create_top2:hover::before{
+    width: 100%;
+    color: white;
+}
+#update-btn-tbl, #delete-btn-tbl{
+    padding: 5px 0;
+    width: 70px;
+    border-radius: 20px;
+    background: #28263c;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin: 0 5px ;
+    color:white;
+    cursor: pointer;
+}
+#update-btn-tbl:hover, #delete-btn-tbl:hover{
+    background: var(--blue);
+}
+ :root{
+  --violet:#d5bfff;
+  --dark-pink:#cf6da8;
+  --pink:#fabfdf;
+  --blue:#28263c;
+  --gradient-background:linear-gradient(193deg, rgba(213,191,255,0.5) 32%, rgba(250,191,223,0.5) 86%);
+  --font:'Bree Serif', serif;
+  }
+
+
+.view-form{
+    display:none;
+    padding-top: 50px;
+}
+
+.viewdata{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+.mytbl{
+    width: 100%;
+}
+th{
+    height: 70px;
+}
