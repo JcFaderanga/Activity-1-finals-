@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FirebaseCRUD/static/css/main.4e5a69bd.css",
+    "main.js": "/FirebaseCRUD/static/js/main.9b74da12.js",
+    "index.html": "/FirebaseCRUD/index.html",
+    "main.4e5a69bd.css.map": "/FirebaseCRUD/static/css/main.4e5a69bd.css.map",
+    "main.9b74da12.js.map": "/FirebaseCRUD/static/js/main.9b74da12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e5a69bd.css",
+    "static/js/main.9b74da12.js"
+  ]
+}
